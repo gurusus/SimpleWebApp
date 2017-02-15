@@ -1,0 +1,23 @@
+Various Categories:
+
+
+Relational (SQL)----MySQL,SQLite, PostgreSQL
+NoSQL(can be relational or otherwise)
+     |____Key/value databases(Redis, MemcacheDB, riak)
+     |____column based(cassandra, HBase)
+     |____Document based(MongoDB, couchDB)
+     |____Graph Based (OrientDB, Neo4j)
+ 
+ Links
+ -----
+1. NoSQL types and comparision
+https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models
+https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+
+2. Relational-comparision of above 3
+https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+
+3. Ranking of DBs
+http://db-engines.com/en/ranking
+ 
+     
