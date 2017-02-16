@@ -3,10 +3,10 @@ Various Categories:
 
 Relational (SQL)----MySQL,SQLite, PostgreSQL
 NoSQL(can be relational or otherwise)
-     |____Key/value databases(Redis, MemcacheDB, riak)
-     |____column based(cassandra, HBase)
-     |____Document based(MongoDB, couchDB)
-     |____Graph Based (OrientDB, Neo4j)
+     |____Key/value databases(Redis, MemcacheDB, riak) (Used when caching, queing, keeping live info)
+     |____column based(cassandra, HBase) (scaling, unstructured non-volatile info)
+     |____Document based(MongoDB, couchDB) (MongoDB is JS firndly as it uses json, nested info)
+     |____Graph Based (OrientDB, Neo4j) (handle complex relational info, modeling classifying info in relational way)
  
  Links
  -----
@@ -20,4 +20,28 @@ https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a
 3. Ranking of DBs
 http://db-engines.com/en/ranking
  
-     
+Companies using different DBs
+1. Redis(key/value)-Twitter,GitHub,Weibo,Pinterest,Snapchat,Craigslist,Digg,StackOverflow.
+   Best used: For rapidly changing data with a foreseeable database size (should fit mostly in memory).
+   Example: To store real-time stock prices. Real-time analytics. Leaderboards. Real-time communication. 
+   And wherever you used memcached before. 
+   
+2. MongoDB(Document)-t-mobile, udacity, sony, retailmenot
+   Best used: If you need dynamic queries. If you prefer to define indexes, not map/reduce functions.
+   If you need good performance on a big DB. If you wanted CouchDB, but your data changes too much, filling up disks.
+   Example: For most things that you would do with MySQL or PostgreSQL, but having predefined columns really holds you back.
+
+3. Hbase(column)-Facebook,Couldera,Hortonworks
+   Best used: Hadoop is probably still the best way to run Map/Reduce jobs on huge datasets.
+              Best if you use the Hadoop/HDFS stack already.
+   Example: Search engines. Analysing log data. Any place where scanning huge, two-dimensional join-less tables are a requirement. 
+   
+4. OrientDB(graph)-Comcast,Cisco,Ericsson
+   Neo4j(graph)-walmart, ebay
+   Best used: For graph-style, rich or complex, interconnected data.
+   Example: For searching routes in social relations, public transport links, road maps, or network topologies.
+   
+5. Cassandra(document)-Digg, Facebook,Twitter, Reddit, Rackspace, Cloudkick, Cisco
+   Best used: When you need to store data so huge that it doesn't fit on server, but still want a friendly familiar interface to it.
+   Example: Web analytics, to count hits by hour, by browser, by IP, etc. 
+   Transaction logging. Data collection from huge sensor arrays. 
