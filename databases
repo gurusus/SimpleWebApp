@@ -45,3 +45,8 @@ Companies using different DBs
    Best used: When you need to store data so huge that it doesn't fit on server, but still want a friendly familiar interface to it.
    Example: Web analytics, to count hits by hour, by browser, by IP, etc. 
    Transaction logging. Data collection from huge sensor arrays. 
+   
+6. SAP HANA: SAP HANA is an in-memory, column-oriented, relational database management system developed and marketed by SAP SE.[2][3] 
+   Its primary function as database server is to store and retrieve data as requested by the applications. 
+   In addition, it performs advanced analytics (predictive analytics, spatial data processing, text analytics, text search, 
+   streaming analytics, graph data processing) and includes ETL capabilities and an application server.
