@@ -8,5 +8,6 @@
   7. Telemetry patterns and usage in data analytics and IOT.
 10. test frameworks for test driven development
 11. static and dynamic code alalysis, code coverage tools
-12. Message blocker and Streaming : kafka/Zookeeper
-13. micro servive /container management : kubernetis
+12. Message broker and Streaming services: kafka/Zookeeper
+13. micro servive /container management : kubernetes
+14. Simple Micro Service demo using Java/Go, kubernetes and gRPC, docker container.
