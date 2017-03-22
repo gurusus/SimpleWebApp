@@ -25,6 +25,20 @@ https://www.youtube.com/watch?v=Fg8cTsEk7Gc
 https://www.youtube.com/watch?v=SspgvvQ13DU
 https://www.youtube.com/watch?v=SxHsnNYxcww&t=23s
 
+gRPC client and server example:
+http://www.sanarias.com/blog/1216AsimplegRPCdemoinGoandCSharp
+
+Web Applications:
+https://astaxie.gitbooks.io/build-web-application-with-golang/en/
+
+JSON:
+https://github.com/bitly/go-simplejson
+
+https://nanxiao.gitbooks.io/golang-101-hacks/content/posts/how-to-build-go-development-environment.html
+https://www.golang-book.com/books/intro
+https://www.goinggo.net/2014/02/the-nature-of-channels-in-go.html
+https://gobyexample.com/
+
 
 Mylinks:
 Golang with examples, tutorials and presentations:
