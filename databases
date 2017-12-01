@@ -50,3 +50,7 @@ Companies using different DBs
    Its primary function as database server is to store and retrieve data as requested by the applications. 
    In addition, it performs advanced analytics (predictive analytics, spatial data processing, text analytics, text search, 
    streaming analytics, graph data processing) and includes ETL capabilities and an application server.
+   
+7. cache based dbs: memcashd, redis, etcd
+
+8. time seris db: influx
